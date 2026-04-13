@@ -7,7 +7,7 @@ def dijkstras(src, n):
     d, u = heapq.heappop(pq)
     if d > dist[u]: continue
     for v, wt in adj[u]:
-      if dist[u] + wt < dist[v]:
-        dist[v] = dist[u] + wt
+      if d + wt < dist[v]:
+        dist[v] = d + wt
         heapq.heappush(pq, (dist[v], v))
   return dist
