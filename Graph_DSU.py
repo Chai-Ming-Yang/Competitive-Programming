@@ -1,5 +1,5 @@
 par = list(range(n))
-size= [1] * n
+sz= [1] * n
 def find(a):
   while a != par[x]:
     par[a] = par[par[x]]
@@ -9,8 +9,8 @@ def find(a):
 def union(a, b):
   a, b = find(a), find(b)
   if a == b: return False
-  if size[a] < size[b]:
+  if sz[a] < sz[b]:
     a, b = b, a
   par[b] = a
-  size[a] += size[b]
+  sz[a] += sz[b]
   return True
