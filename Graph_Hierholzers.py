@@ -4,3 +4,4 @@ def dfs(u):
     while adj[u]:
       dfs(adj[u].pop())
     path.append(u)
+path.reverse()
