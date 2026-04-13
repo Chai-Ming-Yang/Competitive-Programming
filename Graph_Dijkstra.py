@@ -4,7 +4,7 @@ def dijkstras(src, n):
   pq = [(0, src)]
 
   while pq:
-    d, u = heapq.heappop()
+    d, u = heapq.heappop(pq)
     if d > dist[u]: continue
     for v, wt in adj[u]:
       if dist[u] + wt < dist[v]:
