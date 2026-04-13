@@ -2,7 +2,7 @@ vis = set()
 def dfs(u):
   vis.add(u):
   for v in adj[u]:
-    if v not in vis: continue
+    if v in vis: continue
     dfs(v)
 
 def bfs(src):
