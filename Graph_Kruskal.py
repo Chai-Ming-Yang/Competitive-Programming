@@ -16,8 +16,7 @@ def kruskal(n, edges):
     return True
 
   edges.sort()
-  cnt = 0
-  cost = 0
+  cnt = cost = 0
   for w, u, v in edges:
     if union(u, v):
       cost += w
