@@ -1,5 +1,5 @@
 import sys
-input = sys.stdin.input().rstrip('\n')
+input = sys.stdin.readline().rstrip('\n')
 from collections import Counter, defaultdict, deque
 import heapq
 
@@ -11,3 +11,5 @@ q = deque()
 pq = []
 heapq.heappush(pq, 1)
 x = heapq.heappop(pq)
+
+print(*a)
