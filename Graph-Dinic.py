@@ -26,7 +26,7 @@ class Dinic:
       u = q.popleft()
 
       for e in self.g[u]:
-        if e.cap > 0 and self.level[e.to] == -1:
+        if e.cap and self.level[e.to] == -1:
           self.level[e.to] = self.level[u] + 1
           q.append(e.to)
     return self.level[t] != -1
@@ -38,7 +38,7 @@ class Dinic:
       self.ptr[u] = i
       e = self.g[u][i]
 
-      if e.cap > 0 and self.level[e.to] == self.level[u] + 1:
+      if e.cap and self.level[e.to] == self.level[u] + 1:
         pushed = self.dfs(e.to, t, min(f, e.cap))
         if pushed:
           e.cap -= pushed
