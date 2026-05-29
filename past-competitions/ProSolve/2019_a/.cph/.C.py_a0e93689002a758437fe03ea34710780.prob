@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"c:\\Users\\User\\Downloads\\Prosolve\\2019_a\\C.py","tests":[{"id":1778137159132,"input":"3\n132\n164\n264","output":"132 is an Osiris number\n164 is not an Osiris number\n264 is an Osiris number"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2019_a\\C.py","group":"local","local":true}

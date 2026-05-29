@@ -1,0 +1,1 @@
+{"name":"Local: I","url":"c:\\Users\\User\\Downloads\\Prosolve\\2026\\I.py","tests":[{"id":1779363762720,"input":"3\n3 1\n4 2\n7 3\n","output":"YES 10\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2026\\I.py","group":"local","local":true}

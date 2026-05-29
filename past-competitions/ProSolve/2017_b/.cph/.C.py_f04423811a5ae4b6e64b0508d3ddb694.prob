@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"c:\\Users\\User\\Downloads\\Prosolve\\2017_b\\C.py","tests":[{"id":1776846578033,"input":"3\ngood morning\nhow are you\ndo you come in peace","output":"morning good\nyou are how\npeace in come you do"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2017_b\\C.py","group":"local","local":true}

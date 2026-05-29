@@ -1,0 +1,1 @@
+{"name":"Local: F","url":"c:\\Users\\User\\Downloads\\Prosolve\\2026\\F.py","tests":[{"id":1779172167118,"input":"5 8\n?\n+ 1 2\n+ 2 3\n?\n- 1 2\n?\n+ 4 5\n?\n","output":"5\n3\n4\n3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2026\\F.py","group":"local","local":true}

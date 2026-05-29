@@ -1,0 +1,13 @@
+gcd(a, 0) = |a|
+gcd(a, b) = gcd(|a|, |b|)
+gcd(a, b) = a  "if a div b"
+gcd(a, b) = gcd(a-b, b)  "where a >= b"
+
+Sum_of_N   = N*(N+1)//2
+Sum_of_p^N = (p**(N+1) - 1) // (p - 1)
+
+Num Factor r(n) = product of (exponents + 1) of all prime factors
+Sum Factor s(n) = sum of ((p**(N+1) - 1) // (p - 1)) of all prime factor
+Prod Factr   n  = n**(r(n)//2)
+
+isprime(n) : no divisor upto sqrt(n)

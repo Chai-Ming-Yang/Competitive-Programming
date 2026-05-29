@@ -1,0 +1,1 @@
+{"name":"Local: G","url":"c:\\Users\\User\\Downloads\\Prosolve\\2020_a\\G.py","tests":[{"id":1778769615927,"input":"2\n+ 1 2\n- 2202211 2200111","output":"10\n2100"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2020_a\\G.py","group":"local","local":true}

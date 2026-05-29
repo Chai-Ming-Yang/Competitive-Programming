@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"c:\\Users\\User\\Downloads\\Prosolve\\2020_a\\C.py","tests":[{"id":1778722797635,"input":"2\n5\nWelcome\nto\nProsolve\nNational\nTwentyTwenty\n6\nGood\nluck\nand\nhave\nfun\neveryone\n","output":"422\n445"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2020_a\\C.py","group":"local","local":true}

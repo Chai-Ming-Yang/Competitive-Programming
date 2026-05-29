@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"c:\\Users\\User\\Downloads\\Prosolve\\2016_b\\C.py","tests":[{"id":1778494780047,"input":"3\n6\n7\n10","output":"Case 1: 720\nCase 2: 5040\nCase 3: 3628800"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2016_b\\C.py","group":"local","local":true}

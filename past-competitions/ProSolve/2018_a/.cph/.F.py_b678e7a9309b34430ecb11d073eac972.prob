@@ -1,0 +1,1 @@
+{"name":"Local: F","url":"c:\\Users\\User\\Downloads\\Prosolve\\2018_a\\F.py","tests":[{"id":1777076459588,"input":"h32!e932ll&*2+o ","output":"hello"},{"id":1777076473521,"input":"F@#!a43%@h6m$@i**j2e3r ","output":"Fahmijer"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2018_a\\F.py","group":"local","local":true}

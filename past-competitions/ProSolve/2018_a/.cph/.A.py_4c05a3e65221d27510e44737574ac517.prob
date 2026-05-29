@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"c:\\Users\\User\\Downloads\\Prosolve\\2018_a\\A.py","tests":[{"id":1776918645818,"input":"psychophysicotherapeutics","output":"a:1\nc:3\ne:2\nh:3\ni:2\no:2\np:3\nr:1\ns:3\nt:2\nu:1\ny:2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2018_a\\A.py","group":"local","local":true}

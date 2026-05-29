@@ -1,0 +1,1 @@
+{"name":"Local: J","url":"c:\\Users\\User\\Downloads\\Prosolve\\2025_b\\J.py","tests":[{"id":1779363312820,"input":"\"level\"","output":"l"},{"id":1779363317628,"input":"\"ababab\"","output":"abab"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2025_b\\J.py","group":"local","local":true}

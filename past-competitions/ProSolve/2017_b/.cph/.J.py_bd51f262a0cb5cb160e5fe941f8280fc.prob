@@ -1,0 +1,1 @@
+{"name":"Local: J","url":"c:\\Users\\User\\Downloads\\Prosolve\\2017_b\\J.py","tests":[{"id":1776917967492,"input":"12 12 -63 23 -91 -49 -65 -32 12","output":"Mean : -26.78\nMedian : -91.00"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2017_b\\J.py","group":"local","local":true}

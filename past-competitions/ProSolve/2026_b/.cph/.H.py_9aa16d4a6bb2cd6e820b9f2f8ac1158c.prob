@@ -1,0 +1,1 @@
+{"name":"Local: H","url":"c:\\Users\\User\\Downloads\\Prosolve\\2026_b\\H.py","tests":[{"id":1779684978349,"input":"4\n100 200\n200 1300\n1000 1250\n2000 3200","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2026_b\\H.py","group":"local","local":true}

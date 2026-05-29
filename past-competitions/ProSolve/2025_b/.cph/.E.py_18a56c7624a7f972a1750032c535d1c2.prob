@@ -1,0 +1,1 @@
+{"name":"Local: E","url":"c:\\Users\\User\\Downloads\\Prosolve\\2025_b\\E.py","tests":[{"id":1779339215335,"input":"[3,2,3]\n3 \n","output":"3"},{"id":1779339225325,"input":"[1,2,2]\n3 \n","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Downloads\\Prosolve\\2025_b\\E.py","group":"local","local":true}
