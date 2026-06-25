@@ -1,20 +1,20 @@
-# x, y : period
-LCM = math.lcm(x, y)  # scale to int
+import math
+LCM = math.lcm(x, y)
+x_tick = LCM // x
+y_tick = LCM // y
 
-def num_events(t):
-  return t//x + t//y - t//LCM    # every lcm, overlap occurs
+num_evt = lambda t: t//x_tick + t//y_tick + t//LCM
 
-len_cycle = num_events(lcm)  # until collision
+cycle_len = num_evt(LCM)
 
+t = 0
 cycle = []
-t = 1
-while len(cycle) < len_cycle:
-  if t % tick_x == 0 and t % tick_y == 0:
-    cycle.append('both')
-  elif t % tick_x == 0:
-    cycle.append('x')
-  elif t % tick_y == 0:
-    cycle.append('y')
-  t += 1
-
-ans = cycle[(k - 1) % cycle_len]
+while len(cycle) < cycle_len:
+    t += 1
+    if t % LCM == 0:
+        cycle.append('both')
+    elif t % tick_x == 0:
+        cycle.append('x')
+    elif t % tick_y == 0:
+        cycle.append('y')
+ans = cycle[(k-1) % cycle_len]
